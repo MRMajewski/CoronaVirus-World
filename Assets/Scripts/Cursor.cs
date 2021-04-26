@@ -44,11 +44,12 @@ public class Cursor : MonoBehaviour
                     var virus = selection.GetComponent<Virus>();
 
                     selection.GetComponent<Collider>().enabled = false;
-                    virus.addPoints();
+                    // virus.addPoints();
+                    manager.AddPoints(virus.Points);                 
+                    manager.UseVaccine(1);
                     virus.DestroyTarget();
-                    manager.vaccinePoints--;
-               
-                                 
+
+
                 }
                 if (selection.tag == "Vaccine")
                 {

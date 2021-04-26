@@ -20,6 +20,11 @@ public class Vaccine : MonoBehaviour
         manager.vaccinePoints += vaccinePoints;
     }
 
+    public void decreaseVaccinePoints()
+    {
+        manager.vaccinePoints -= vaccinePoints;
+    }
+
 
     public void DestroyVaccine()
     {
