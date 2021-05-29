@@ -19,6 +19,8 @@ public class Cursor : MonoBehaviour
 
     public GameManager manager;
 
+    public WheelManager wheelManager;
+
     // Update is called once per frame
     void Update()
     {
@@ -59,7 +61,8 @@ public class Cursor : MonoBehaviour
                     var vaccine = selection.GetComponent<Vaccine>();
 
                     selection.GetComponent<Collider>().enabled = false;
-                    vaccine.addVaccinePoints();
+                    wheelManager.activateWheelPanel();
+                   // vaccine.addVaccinePoints();
                     vaccine.DestroyVaccine();
 
                 }

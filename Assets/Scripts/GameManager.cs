@@ -22,6 +22,12 @@ public class GameManager : MonoBehaviour
         uiManager.UpdatePoints(points);
     }
 
+    public void AddVaccinePoints(int addedPoints)
+    {
+        vaccinePoints += addedPoints;
+        uiManager.UpdateVaccinePoints(vaccinePoints);
+    }
+
     public void UseVaccine(int vaccineAmount)
     {
         vaccinePoints -= vaccineAmount;

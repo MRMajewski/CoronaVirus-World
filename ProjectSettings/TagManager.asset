@@ -8,6 +8,9 @@ TagManager:
   - Virus
   - Vaccine
   - Target
+  - SmallPrize
+  - MedPrize
+  - BigPrize
   layers:
   - Default
   - TransparentFX
