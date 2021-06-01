@@ -17,6 +17,9 @@ public class WheelManager : MonoBehaviour
     public GameManager manager;
     public UIManager uiManager;
 
+    public WorldMovement world;
+    public float playerSpeed;
+
 
     private void Start()
     {
@@ -32,8 +35,6 @@ public class WheelManager : MonoBehaviour
             manager.AddVaccinePoints(vaccinePoints);
             disactivateWheelPanel();
             WasSpinned = false;
-
-
         }
     }
 
@@ -46,6 +47,8 @@ public class WheelManager : MonoBehaviour
         LeanTween.alphaCanvas(wheelPanel.GetComponent<CanvasGroup>(), 0f, 0f);
         LeanTween.alphaCanvas(wheelPanel.GetComponent<CanvasGroup>(), 1f, 1f);
         wheel.RandomizeWheelRotation();
+        playerSpeed = world.speed;
+        world.speed = 0;
     }
 
     public void UpdateVaccinePoints(int vaccineAmount)
@@ -57,6 +60,8 @@ public class WheelManager : MonoBehaviour
     {
       //  LeanTween.scale(wheelPanel, Vector3.zero, 1f).setEaseInElastic();
         wheelPanel.SetActive(false);
+               playerSpeed = world.speed;
+
     }
         
 }

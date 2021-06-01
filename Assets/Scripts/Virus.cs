@@ -27,9 +27,4 @@ public class Virus : MonoBehaviour
         Destroy(this.gameObject, 2f);
     }
 
-    //public void addPoints()
-    //{
-    //    manager.points += Points;
-    //}
-
 }

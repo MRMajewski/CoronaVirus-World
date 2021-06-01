@@ -606,6 +606,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   camera: {fileID: 963194227}
   selection: {fileID: 0}
+  cursor: {fileID: 1393661935697385369}
   rayLenght: 10
   isVirus: 0
   isVaccine: 0
@@ -1274,6 +1275,14 @@ MonoBehaviour:
   points: 0
   vaccinePoints: 5
   uiManager: {fileID: 1562379005}
+  virusSpawner: {fileID: 1990553850}
+  vaccineSpawner: {fileID: 1495877137}
+  onStartVirusAmount: 5
+  onStartVaccineAmount: 2
+  IsSpawningVirus: 1
+  IsSpawningVaccine: 1
+  VirusRefreshTime: 5
+  VaccineRefreshTime: 6
 --- !u!4 &855893065
 Transform:
   m_ObjectHideFlags: 0
@@ -1899,6 +1908,8 @@ MonoBehaviour:
   vaccinePoints: {fileID: 1885813709}
   manager: {fileID: 855893064}
   uiManager: {fileID: 1562379005}
+  world: {fileID: 1046514950}
+  playerSpeed: 0
 --- !u!4 &1301229727
 Transform:
   m_ObjectHideFlags: 0

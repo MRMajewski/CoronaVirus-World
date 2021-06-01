@@ -33,6 +33,7 @@ public class LongClickButton : MonoBehaviour, IPointerDownHandler, IPointerUpHan
 
     public GameObject Wheel;
 
+
     public void OnPointerDown(PointerEventData eventData)
     {
         pointerDown = true;
@@ -40,13 +41,11 @@ public class LongClickButton : MonoBehaviour, IPointerDownHandler, IPointerUpHan
 
     public void OnPointerUp(PointerEventData eventData)
     {
-
         if (onLongClick != null)
         {
             onLongClick.Invoke();
             WasSpinned = true;
-        }
-    
+        }    
         Reset();
     }
 

@@ -13,17 +13,9 @@ public class VaccineSpawner : MonoBehaviour
 
     [ContextMenu("SpawnTarget")]
 
-    // Update is called once per frame
-    void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.Space)) SpawnVaccine();
-    }
-
     public void SpawnVaccine()
     {
         Vector3 targetPos = Random.onUnitSphere * worldRadius;
-
-
 
         if (CanSpawnVaccine(targetPos))
         {
@@ -37,6 +29,15 @@ public class VaccineSpawner : MonoBehaviour
         }
 
     }
+
+    public void InitialSpawnVaccine(int amount)
+    {
+        for (int i = 0; i < amount; i++)
+        {
+            SpawnVaccine();
+        }
+    }
+
 
     private void PopUpTween(GameObject target)
     {

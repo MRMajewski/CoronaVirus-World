@@ -15,20 +15,8 @@ public class VirusSpawnTest : MonoBehaviour
     public Vector3 pos;
 
     public float worldRadius = 50f;
-    // Start is called before the first frame update
-    void Start()
-    {
-        InitialSpawnTarget(4);
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.Space)) SpawnTarget();
-
-    }
-
-    private void SpawnTarget()
+    public void SpawnTarget()
     {
         // Vector3 targetPos = Random.onUnitSphere * worldRadius;
 
@@ -44,7 +32,7 @@ public class VirusSpawnTest : MonoBehaviour
         
     }
 
-    private void InitialSpawnTarget(int amount)
+    public void InitialSpawnTarget(int amount)
     {
         for (int i = 0; i < amount + 1; i++)
         {
@@ -57,6 +45,14 @@ public class VirusSpawnTest : MonoBehaviour
             GameObject newTarget = Instantiate(virusObject, targetPos, targetRot, VirusList.transform);
 
             PopUpTween(newTarget);
+        }
+    }
+
+    public void InitialSpawnVirus(int amount)
+    {
+        for (int i = 0; i < amount; i++)
+        {
+            SpawnTarget();
         }
     }
 

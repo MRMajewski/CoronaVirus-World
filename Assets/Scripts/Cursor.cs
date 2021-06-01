@@ -9,6 +9,7 @@ public class Cursor : MonoBehaviour
     public Camera camera;
 
     public Collider selection;
+    public CursorMovement cursor;
    // public Transform selection;
 
     public float rayLenght = 20f;
@@ -60,9 +61,8 @@ public class Cursor : MonoBehaviour
                     Debug.Log("Trafione vacccine");
                     var vaccine = selection.GetComponent<Vaccine>();
 
-                    selection.GetComponent<Collider>().enabled = false;
-                    wheelManager.activateWheelPanel();
-                   // vaccine.addVaccinePoints();
+                    selection.GetComponent<Collider>().enabled = false;                  
+                    wheelManager.activateWheelPanel();                    
                     vaccine.DestroyVaccine();
 
                 }
