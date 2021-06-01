@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleSceneTestPlanet2.unity
-    guid: 753bfa5cda18df948a304d3ff19ca1c9
+    path: Assets/Scenes/Planet.unity
+    guid: e120b3d8f0f816e48baaf642af7b09fd
   m_configObjects: {}

@@ -21,7 +21,7 @@ public class WorldMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        UpdateSwipePC();
+      //  UpdateSwipePC();
 
 
           UpdateMovement();

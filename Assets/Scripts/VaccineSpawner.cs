@@ -5,13 +5,12 @@ using UnityEngine;
 public class VaccineSpawner : MonoBehaviour
 {
     public GameObject targetObject;
-    public GameObject world;
+    public GameObject VaccineList;
 
     public GameObject Land;
 
     public float worldRadius = 50f;
 
-    [ContextMenu("SpawnTarget")]
 
     public void SpawnVaccine()
     {
@@ -23,11 +22,10 @@ public class VaccineSpawner : MonoBehaviour
 
             Quaternion targetRot = Quaternion.LookRotation(direction);
 
-            GameObject newTarget = Instantiate(targetObject, targetPos, targetRot, world.transform);
+            GameObject newTarget = Instantiate(targetObject, targetPos, targetRot, VaccineList.transform);
 
             PopUpTween(newTarget);
         }
-
     }
 
     public void InitialSpawnVaccine(int amount)
@@ -45,7 +43,6 @@ public class VaccineSpawner : MonoBehaviour
         LeanTween.scale(target, new Vector3(5f, 5f, 5f), 2f);
         LeanTween.rotateAroundLocal(target, Vector3.forward, 270f, 2f);
     }
-
 
     private bool CanSpawnVaccine(Vector3 pos)
     {

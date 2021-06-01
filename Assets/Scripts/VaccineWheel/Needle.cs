@@ -37,7 +37,6 @@ public class Needle : MonoBehaviour
             Wheel.GetComponent<Wheel>().isSpinning = false;
 
             SetAmountOfPoints();
-            Debug.Log(PointsGained);
             wheelManager.WasSpinned =true;
 
         }

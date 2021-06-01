@@ -10,7 +10,8 @@ public class GameManager : MonoBehaviour
 
     public UIManager uiManager;
 
-    public VirusSpawnTest virusSpawner;
+    public VirusSpawner virusSpawner;
+
     public VaccineSpawner vaccineSpawner;
 
     [Header("Starting parameters")]
@@ -23,12 +24,15 @@ public class GameManager : MonoBehaviour
     public int VirusRefreshTime;
     public int VaccineRefreshTime;
 
+    public float VaccineProductionParameter;
+    public float VirusSpreadingTimeParameter;
+
 
     // Start is called before the first frame update
     void Start()
     {
         InitGamePoints();
-        virusSpawner.InitialSpawnTarget(onStartVirusAmount);
+        virusSpawner.InitialSpawnVirus(onStartVirusAmount);
         vaccineSpawner.InitialSpawnVaccine(onStartVaccineAmount);
         StartCoroutine(VirusSpawnCoroutine());
         StartCoroutine(VaccineSpawnCoroutine());
@@ -40,29 +44,29 @@ public class GameManager : MonoBehaviour
 
         while (IsSpawningVirus)
         {
-            virusSpawner.SpawnTarget();
-            Debug.Log("Spawned Virus");
-            yield return new WaitForSeconds(VirusRefreshTime);
+            virusSpawner.SpawnVirus();
+            VirusSpreadingTimeParameter = virusSpawner.VirusList.GetComponentsInChildren<Transform>().Length*0.1f;
+            if (VirusSpreadingTimeParameter >= VirusRefreshTime)
+                VirusSpreadingTimeParameter = 3;
+            yield return new WaitForSeconds(VirusRefreshTime - VirusSpreadingTimeParameter);
         }
 
     }
 
     IEnumerator VaccineSpawnCoroutine()
     {
-        yield return new WaitForSeconds(5f);
+        yield return new WaitForSeconds(6f);
 
         while (IsSpawningVaccine)
         {
             vaccineSpawner.SpawnVaccine();
-            Debug.Log("Spawned Vaccine");
-            yield return new WaitForSeconds(VaccineRefreshTime);
+            VaccineProductionParameter = vaccineSpawner.VaccineList.GetComponentsInChildren<Transform>().Length * 0.25f;
+            if (VaccineProductionParameter >= VaccineRefreshTime)
+                VaccineProductionParameter = 4;
+            yield return new WaitForSeconds(VaccineRefreshTime-VaccineProductionParameter);
         }
 
     }
-
-
-
-
 
 
     public void AddPoints(int addedPoints)
@@ -91,5 +95,14 @@ public class GameManager : MonoBehaviour
         uiManager.UpdateVaccinePoints(vaccinePoints);
     }
 
-    
+
+    private void Update()
+    {
+        if(Input.GetKey(KeyCode.Escape))
+        {
+            Application.Quit();
+        }
+    }
+
+
 }

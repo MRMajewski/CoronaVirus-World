@@ -8,8 +8,6 @@ public class UIManager : MonoBehaviour
     public TextMeshProUGUI pointsText;
     public TextMeshProUGUI vaccinePointsText;
 
-
-
     public void UpdatePoints(int points)
     {
         pointsText.text = points.ToString();

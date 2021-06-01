@@ -5,61 +5,79 @@ using UnityEngine;
 public class VirusSpawner : MonoBehaviour
 {
 
-    public GameObject targetObject;
-    public GameObject world;
+    public GameObject virusObject;
 
-    public GameObject Land;
+    public GameObject VirusList;
+
+
+    public bool isPosOk;
+
+    public Vector3 pos;
 
     public float worldRadius = 50f;
 
-    [ContextMenu("SpawnTarget")]
+    [ContextMenu("SpawnVirus")]
+    [ContextMenu("InitialSpawnVirus(2)")]
 
-    // Start is called before the first frame update
-    void Start()
+
+    public void SpawnVirus()
     {
-        
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.Space)) SpawnTarget();
-    }
+        Vector3 targetPos = setPosition();
 
-    public void SpawnTarget()
-    {
-        Vector3 targetPos = Random.onUnitSphere* worldRadius;
-
-      
-
-        if (CanSpawn(targetPos))
-        {
             Vector3 direction = targetPos - Vector3.zero;
 
             Quaternion targetRot = Quaternion.LookRotation(direction);
 
-            GameObject newTarget = Instantiate(targetObject, targetPos, targetRot, world.transform);
+            GameObject newTarget = Instantiate(virusObject, targetPos, targetRot, VirusList.transform);
 
             PopUpTween(newTarget);
-        }
-
+        
     }
 
+    public void Test()
+    {
+        SpawnVirus();
+    }
+
+    public void InitialSpawnVirus(int amount)
+    {
+        for (int i = 0; i < amount; i++)
+        {
+            SpawnVirus();
+        }
+    }
+
+    //DZIAŁA  XD
+    private Vector3 setPosition()
+    {
+        SphereCollider[] colliders;
+        colliders = VirusList.GetComponentsInChildren<SphereCollider>();
+
+        do
+        {
+            pos = Random.onUnitSphere * worldRadius;
+
+            foreach (SphereCollider collider in colliders)
+
+            {
+                if(collider.bounds.Contains(pos))
+                
+                    isPosOk = true;
+                    else isPosOk = false;               
+            }
+        }
+
+        while (isPosOk);
+
+        return pos;
+    }
 
     private void PopUpTween(GameObject target)
     {
         LeanTween.scale(target, Vector3.zero, 0f);
-        LeanTween.scale(target, new Vector3(2f,2f,2f), 2f);
+        LeanTween.scale(target, new Vector3(2f, 2f, 2f), 2f);
         LeanTween.rotateAroundLocal(target, Vector3.forward, 270f, 2f);
     }
-
-
-    private bool CanSpawn(Vector3 pos)
-    {
-        if ((Land.GetComponent<MeshCollider>().bounds.Contains(pos)))
-            return true;
-        else return false;
-
-        
-    }
 }
+

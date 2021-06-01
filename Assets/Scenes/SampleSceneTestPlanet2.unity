@@ -1908,8 +1908,7 @@ MonoBehaviour:
   vaccinePoints: {fileID: 1885813709}
   manager: {fileID: 855893064}
   uiManager: {fileID: 1562379005}
-  world: {fileID: 1046514950}
-  playerSpeed: 0
+  world: {fileID: 1046514949}
 --- !u!4 &1301229727
 Transform:
   m_ObjectHideFlags: 0
