@@ -1,0 +1,510 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.8f1 (507919d4fff5) revision 5273881'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 7  (6.1.0) 64bit' Language: 'pl' Physical Memory: 8088 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+D:\GAMEDEV\UNITY EDITOR\2020.3.8f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/GAMEDEV/GAMES/CoronaVirus World
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+2212
+Successfully changed project path to: D:/GAMEDEV/GAMES/CoronaVirus World
+D:/GAMEDEV/GAMES/CoronaVirus World
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 78.22 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.8f1 (507919d4fff5)
+[Subsystems] Discovering subsystems at path D:/GAMEDEV/UNITY EDITOR/2020.3.8f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/GAMEDEV/GAMES/CoronaVirus World/Assets
+GfxDevice: creating device client; threaded=0
+d3d11: CreateDXGIFactory2(...) not found, fallbacking to CreateDXGIFactory1(...).
+d3d11: QueryInterface(IDXGIFactory5) failed (80004002).
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce 840M (ID=0x1341)
+    Vendor:   
+    VRAM:     1996 MB
+    Driver:   23.21.13.8859
+Initialize mono
+Mono path[0] = 'D:/GAMEDEV/UNITY EDITOR/2020.3.8f1/Editor/Data/Managed'
+Mono path[1] = 'D:/GAMEDEV/UNITY EDITOR/2020.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/GAMEDEV/UNITY EDITOR/2020.3.8f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56200
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/GAMEDEV/UNITY EDITOR/2020.3.8f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/GAMEDEV/UNITY EDITOR/2020.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001591 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 57.82 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.523 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001227 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 59.94 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.369 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.82 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1739 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.0 MB.
+System memory in use after: 85.1 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2187.
+Total: 4.687865 ms (FindLiveObjects: 0.348960 ms CreateObjectMapping: 0.227080 ms MarkObjects: 3.993794 ms  DeleteObjects: 0.116320 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Sprites
+  artifactKey: Guid(ec61e34df84fda54b8783cb36db10f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites using Guid(ec61e34df84fda54b8783cb36db10f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd152b2a73ae2bb4eada60c9097fd6568') in 0.030379 seconds
+  Import took 0.036505 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 51.268316 seconds.
+  path: Assets/Sprites/Wheel3.psb
+  artifactKey: Guid(345299f682e7c1144a5087365cb94a37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Wheel3.psb using Guid(345299f682e7c1144a5087365cb94a37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdb0c625b62abfd52aa452e77c589999') in 1.028416 seconds
+  Import took 1.155410 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 55.499328 seconds.
+  path: Assets/Scenes/Planet.unity
+  artifactKey: Guid(e120b3d8f0f816e48baaf642af7b09fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Planet.unity using Guid(e120b3d8f0f816e48baaf642af7b09fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce10815c68f567a5abb95cc11eafeda9') in 0.005254 seconds
+  Import took 0.011707 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 705.901294 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF.asset
+  artifactKey: Guid(8a89fa14b10d46a99122fd4f73fca9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF.asset using Guid(8a89fa14b10d46a99122fd4f73fca9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da64436280401bf0c66aca13a8f757fb') in 0.260892 seconds
+  Import took 0.270676 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007106 seconds.
+  path: Assets/GalaxyBox1/Skybox4/textures/skybox4Y-.png
+  artifactKey: Guid(b5701ea7509344356a81af2a3539d6b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GalaxyBox1/Skybox4/textures/skybox4Y-.png using Guid(b5701ea7509344356a81af2a3539d6b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '887a61fa1f1a8817b69e851e2f4453a5') in 0.092061 seconds
+  Import took 0.125794 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007331 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Brushed Metal 3.jpg
+  artifactKey: Guid(f88677df267a41d6be1e7a6133e7d227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Brushed Metal 3.jpg using Guid(f88677df267a41d6be1e7a6133e7d227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffd877d98d9e39eba1c2db4224f4fbfc') in 0.094773 seconds
+  Import took 0.103934 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008121 seconds.
+  path: Assets/GalaxyBox1/Skybox1/textures/skybox1X-.png
+  artifactKey: Guid(33d369e6cc42b4c3bb0e8a6cc734791d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GalaxyBox1/Skybox1/textures/skybox1X-.png using Guid(33d369e6cc42b4c3bb0e8a6cc734791d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcb57147039d842533a1f2511cd84a83') in 0.274942 seconds
+  Import took 0.285490 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008115 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Oswald-Bold.ttf
+  artifactKey: Guid(c9f6d0e7bc8541498c9a4799ba184ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Oswald-Bold.ttf using Guid(c9f6d0e7bc8541498c9a4799ba184ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d313bcea6b6ddf2c8c0bdfd1fb81dfc') in 0.439450 seconds
+  Import took 0.448602 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009503 seconds.
+  path: Assets/GalaxyBox1/Skybox2/textures/skybox2Z+.png
+  artifactKey: Guid(9ea18543eb3a947d4a54bab6592eee9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GalaxyBox1/Skybox2/textures/skybox2Z+.png using Guid(9ea18543eb3a947d4a54bab6592eee9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '413cc14afeb9504741c4113ab5fad188') in 0.257437 seconds
+  Import took 0.268420 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006927 seconds.
+  path: Assets/GalaxyBox1/Skybox2/textures/skybox2Y+.png
+  artifactKey: Guid(4435f5b8283104abf9805f6f989c61d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GalaxyBox1/Skybox2/textures/skybox2Y+.png using Guid(4435f5b8283104abf9805f6f989c61d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '879ce0954328daa655f1c23bf3ed18a2') in 0.087568 seconds
+  Import took 0.098118 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007785 seconds.
+  path: Assets/GalaxyBox1/Skybox3/textures/skybox3X+.png
+  artifactKey: Guid(1f7edcb256aea4a59ba89f6cf676d85a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GalaxyBox1/Skybox3/textures/skybox3X+.png using Guid(1f7edcb256aea4a59ba89f6cf676d85a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b75b31565152cfb5ca8e6d4e2be8313') in 0.107119 seconds
+  Import took 0.176652 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013355 seconds.
+  path: Assets/GalaxyBox1/Skybox4/textures/skybox4Z-.png
+  artifactKey: Guid(d1d90714d67044e9eb50569ab2648ce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GalaxyBox1/Skybox4/textures/skybox4Z-.png using Guid(d1d90714d67044e9eb50569ab2648ce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2af9f3b8f15318632d7fbf5b2040f563') in 0.266991 seconds
+  Import took 0.277054 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006579 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF.asset
+  artifactKey: Guid(125cb55b44b24c4393181402bc6200e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF.asset using Guid(125cb55b44b24c4393181402bc6200e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c7042555f10b81fb494bd132511a2b3') in 0.098091 seconds
+  Import took 0.108148 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007860 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30a6f6c0a8c7e88c136c23feeb39ddfb') in 0.087206 seconds
+  Import took 0.097087 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008908 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF.asset
+  artifactKey: Guid(5302535af1044152a457ed104f1f4b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF.asset using Guid(5302535af1044152a457ed104f1f4b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53e70d0749c341140a7c8fdb27b88c9a') in 0.104398 seconds
+  Import took 0.114666 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008926 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1280cc7be10b532b2897fc8654f95d3') in 0.120947 seconds
+  Import took 0.131120 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008400 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Floor Tiles 1 - diffuse.jpg
+  artifactKey: Guid(85ac55597b97403c82fc6601a93cf241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Floor Tiles 1 - diffuse.jpg using Guid(85ac55597b97403c82fc6601a93cf241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bccae320e5c9de4f37a16bc767c7cc8') in 0.291922 seconds
+  Import took 0.405405 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007054 seconds.
+  path: Assets/GalaxyBox1/Skybox3/textures/skybox3X-.png
+  artifactKey: Guid(014ade17072f641f09f582293ba8a952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GalaxyBox1/Skybox3/textures/skybox3X-.png using Guid(014ade17072f641f09f582293ba8a952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03a6833aa52ae6eb233e326a94cff6c4') in 0.222442 seconds
+  Import took 0.231531 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008603 seconds.
+  path: Assets/GalaxyBox1/Skybox2/textures/skybox2X+.png
+  artifactKey: Guid(9731d924c0c8c45169d035521a0f132e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GalaxyBox1/Skybox2/textures/skybox2X+.png using Guid(9731d924c0c8c45169d035521a0f132e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91e54acd03e21e695e891fedd83190e7') in 0.074336 seconds
+  Import took 0.085292 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008044 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Mask Zig-n-Zag.psd
+  artifactKey: Guid(bb8dfcd263ad4eb383a33d74a720be6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Mask Zig-n-Zag.psd using Guid(bb8dfcd263ad4eb383a33d74a720be6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '349baa2fd6117ee9368c2c9fa5471041') in 0.090180 seconds
+  Import took 0.100368 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008255 seconds.
+  path: Assets/GalaxyBox1/Skybox4/textures/skybox4Y+.png
+  artifactKey: Guid(638f8da630d0d4732b1d13cc1aee396b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GalaxyBox1/Skybox4/textures/skybox4Y+.png using Guid(638f8da630d0d4732b1d13cc1aee396b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55891e39516d11566bfa7a33b7e6db8f') in 0.057128 seconds
+  Import took 0.067448 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008188 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Electronic Highway Sign SDF.asset
+  artifactKey: Guid(dc36b3fdc14f47ebb36fd484a67e268a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Electronic Highway Sign SDF.asset using Guid(dc36b3fdc14f47ebb36fd484a67e268a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33101409a4ed040dd0b1852a82ef69f0') in 0.088847 seconds
+  Import took 0.098664 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008579 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Sprites/Default Sprites.png
+  artifactKey: Guid(a0fc465d6cf04254a2938578735e2383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Sprites/Default Sprites.png using Guid(a0fc465d6cf04254a2938578735e2383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc03017481f8389c5ecac4071b83a988') in 0.072251 seconds
+  Import took 0.081458 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008235 seconds.
+  path: Assets/GalaxyBox1/Skybox4/textures/skybox4X-.png
+  artifactKey: Guid(82a378a2302e54825a6e7e8e342e7775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GalaxyBox1/Skybox4/textures/skybox4X-.png using Guid(82a378a2302e54825a6e7e8e342e7775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffd378eac4d6979faad4e51157fd3957') in 0.059493 seconds
+  Import took 0.068605 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008877 seconds.
+  path: Assets/Low Poly Hexagons/Assets/Textures/HexagonsShared.png
+  artifactKey: Guid(3c9ddbf33d21b404fba476535adde435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Hexagons/Assets/Textures/HexagonsShared.png using Guid(3c9ddbf33d21b404fba476535adde435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '001fa77a34aaaff084e84bad2af805a0') in 0.287692 seconds
+  Import took 0.298272 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008926 seconds.
+  path: Assets/GalaxyBox1/Skybox3/textures/skybox3Z-.png
+  artifactKey: Guid(17828744e2aa44bc384bf87a09152de3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GalaxyBox1/Skybox3/textures/skybox3Z-.png using Guid(17828744e2aa44bc384bf87a09152de3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b0f86407ab34d2363b77edfca13b015') in 0.105805 seconds
+  Import took 0.115495 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008174 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Vertical (Color).jpg
+  artifactKey: Guid(03d0538de6e24c0f819bfc9ce084dfa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Vertical (Color).jpg using Guid(03d0538de6e24c0f819bfc9ce084dfa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1bcb102f624e944b1c2b29ebde9f648') in 0.477890 seconds
+  Import took 0.487408 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007822 seconds.
+  path: Assets/GalaxyBox1/Skybox1/textures/skybox1Y+.png
+  artifactKey: Guid(b7e2e9978ad0243f597d731893d99f07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GalaxyBox1/Skybox1/textures/skybox1Y+.png using Guid(b7e2e9978ad0243f597d731893d99f07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26e319e4c37e3a8a8e3a5f69544f0b38') in 0.246351 seconds
+  Import took 0.255982 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008733 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Horizontal (Color).jpg
+  artifactKey: Guid(6eb184de103d4b3f812b38561065192f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Horizontal (Color).jpg using Guid(6eb184de103d4b3f812b38561065192f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21b45253ebd11abcec0de4cec4a52636') in 0.272194 seconds
+  Import took 0.282087 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009525 seconds.
+  path: Assets/GalaxyBox1/Skybox4/textures/skybox4X+.png
+  artifactKey: Guid(4f91fffd19f4e432a97625e4d9ed2f33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GalaxyBox1/Skybox4/textures/skybox4X+.png using Guid(4f91fffd19f4e432a97625e4d9ed2f33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d2a299293257cff5b5228b92de363f3') in 0.147654 seconds
+  Import took 0.157120 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008132 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Diagonal (Color).jpg
+  artifactKey: Guid(2ce5c55e85304b819a1826ecbc839aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Diagonal (Color).jpg using Guid(2ce5c55e85304b819a1826ecbc839aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd81c31de0eacf7b5bf100eee8ef05e96') in 0.276523 seconds
+  Import took 0.286822 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006999 seconds.
+  path: Assets/GalaxyBox1/Skybox2/textures/skybox2Y-.png
+  artifactKey: Guid(e036e05fbf2e54232bab1bb331047588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GalaxyBox1/Skybox2/textures/skybox2Y-.png using Guid(e036e05fbf2e54232bab1bb331047588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d248ffb5d12979143c22f6515dc105a') in 0.216081 seconds
+  Import took 0.225635 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008079 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Sprites/DropCap Numbers.psd
+  artifactKey: Guid(fd09957580ac4326916010f1f260975b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Sprites/DropCap Numbers.psd using Guid(fd09957580ac4326916010f1f260975b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46829d4ccf742167d5507cd0f606b6d7') in 0.091344 seconds
+  Import took 0.101463 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007081 seconds.
+  path: Assets/GalaxyBox1/Skybox1/textures/skybox1Y-.png
+  artifactKey: Guid(62c11b1be36cb4a4589607483f92713e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GalaxyBox1/Skybox1/textures/skybox1Y-.png using Guid(62c11b1be36cb4a4589607483f92713e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faf4d3fa264eb61432ba04a4603becf9') in 0.106431 seconds
+  Import took 0.114596 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013968 seconds.
+  path: Assets/TextMesh Pro/Sprites/EmojiOne.png
+  artifactKey: Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Sprites/EmojiOne.png using Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2014665c7dc4f0aa39b7f4552febd4d') in 0.086252 seconds
+  Import took 0.098125 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007740 seconds.
+  path: Assets/GalaxyBox1/Skybox2/textures/skybox2Z-.png
+  artifactKey: Guid(bda98f15f65dd4ad18ef7456fb086408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GalaxyBox1/Skybox2/textures/skybox2Z-.png using Guid(bda98f15f65dd4ad18ef7456fb086408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c7d05f653c0b1a0eefc15214be684db') in 0.088197 seconds
+  Import took 0.096260 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017433 seconds.
+  path: Assets/GalaxyBox1/Skybox3/textures/skybox3Y+.png
+  artifactKey: Guid(3bbbd3bcbcba5428481c3c1216a0a3a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GalaxyBox1/Skybox3/textures/skybox3Y+.png using Guid(3bbbd3bcbcba5428481c3c1216a0a3a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90c045684daf6ea011abe304a1cf5929') in 0.298018 seconds
+  Import took 0.307186 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008842 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Fruit Jelly (B&W).jpg
+  artifactKey: Guid(1cdc5b506b1a4a33a53c30669ced1f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Fruit Jelly (B&W).jpg using Guid(1cdc5b506b1a4a33a53c30669ced1f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1595d5b8b4c638491bb54c44381aa916') in 0.289915 seconds
+  Import took 0.361214 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008411 seconds.
+  path: Assets/GalaxyBox1/Skybox3/textures/skybox3Y-.png
+  artifactKey: Guid(e0cdf12657002434a957a7c1592ea26a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GalaxyBox1/Skybox3/textures/skybox3Y-.png using Guid(e0cdf12657002434a957a7c1592ea26a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcc98ec7a2989bd48f3f2793444955b0') in 0.292079 seconds
+  Import took 0.301401 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008822 seconds.
+  path: Assets/GalaxyBox1/Skybox1/textures/skybox1Z-.png
+  artifactKey: Guid(6e172e6ff783840b3a512349c469ac70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GalaxyBox1/Skybox1/textures/skybox1Z-.png using Guid(6e172e6ff783840b3a512349c469ac70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a289265931967372998ff8eace3ca9aa') in 0.291442 seconds
+  Import took 0.301451 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007602 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Oswald Bold SDF.asset
+  artifactKey: Guid(0161d805a3764c089bef00bfe00793f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Oswald Bold SDF.asset using Guid(0161d805a3764c089bef00bfe00793f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7990e327459309db0b2743a8d747944d') in 0.306469 seconds
+  Import took 0.377449 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007628 seconds.
+  path: Assets/GalaxyBox1/Skybox2/textures/skybox2X-.png
+  artifactKey: Guid(dc665851565a9412cb1faa991982ffd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GalaxyBox1/Skybox2/textures/skybox2X-.png using Guid(dc665851565a9412cb1faa991982ffd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95be67f06e028b510bca53b6dd6ab31d') in 0.262550 seconds
+  Import took 0.272258 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008018 seconds.
+  path: Assets/GalaxyBox1/Skybox1/textures/skybox1X+.png
+  artifactKey: Guid(963985b0c99194a7485c352bbc9f5396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GalaxyBox1/Skybox1/textures/skybox1X+.png using Guid(963985b0c99194a7485c352bbc9f5396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1169bbd7ba95aecfc9b7db71565b341') in 0.275379 seconds
+  Import took 0.286632 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007853 seconds.
+  path: Assets/GalaxyBox1/Skybox3/textures/skybox3Z+.png
+  artifactKey: Guid(281130ff0afad45bbb11237bfd5283a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GalaxyBox1/Skybox3/textures/skybox3Z+.png using Guid(281130ff0afad45bbb11237bfd5283a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbeb1edebce919844104af32729e04bc') in 0.104823 seconds
+  Import took 0.115200 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008841 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Floor Cement.jpg
+  artifactKey: Guid(283f897e4925411ebbaa758b4cb13fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Floor Cement.jpg using Guid(283f897e4925411ebbaa758b4cb13fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ca924964a84ecdee99f86aadacdda7a') in 0.072372 seconds
+  Import took 0.081864 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009413 seconds.
+  path: Assets/GalaxyBox1/Skybox1/textures/skybox1Z+.png
+  artifactKey: Guid(a099f7aa1e1594ed58c7abae2a08008b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GalaxyBox1/Skybox1/textures/skybox1Z+.png using Guid(a099f7aa1e1594ed58c7abae2a08008b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c5ddc93fe703e14b60624c85849c554') in 0.098167 seconds
+  Import took 0.158517 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007812 seconds.
+  path: Assets/GalaxyBox1/Skybox4/textures/skybox4Z+.png
+  artifactKey: Guid(00dddb26db54a4a079496352d66f1d14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GalaxyBox1/Skybox4/textures/skybox4Z+.png using Guid(00dddb26db54a4a079496352d66f1d14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db69af3263f5137a04b084801a6ec27b') in 0.257566 seconds
+  Import took 0.268635 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1681.426591 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f966506f6399306576ea272f94105c30') in 0.045891 seconds
+  Import took 0.105049 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001124 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.180 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.48 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1720 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.3 MB.
+System memory in use after: 87.4 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2250.
+Total: 3.502428 ms (FindLiveObjects: 0.218528 ms CreateObjectMapping: 0.096221 ms MarkObjects: 3.153040 ms  DeleteObjects: 0.021810 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001030 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.188 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1720 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.3 MB.
+System memory in use after: 87.4 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2253.
+Total: 2.274226 ms (FindLiveObjects: 0.213396 ms CreateObjectMapping: 0.084246 ms MarkObjects: 1.946648 ms  DeleteObjects: 0.027797 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.58 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 53.4 MB.
+System memory in use after: 53.5 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2253.
+Total: 4.342754 ms (FindLiveObjects: 0.335703 ms CreateObjectMapping: 0.149249 ms MarkObjects: 3.810761 ms  DeleteObjects: 0.033356 ms)
+
